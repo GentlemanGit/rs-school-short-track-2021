@@ -18,7 +18,7 @@ function getCommonCharacterCount(s1, s2) {
       newS2 = newS2.replace(s1[i], '');
     }
   }
-  return coincidence;
+  return check;
 }
 
 module.exports = getCommonCharacterCount;
